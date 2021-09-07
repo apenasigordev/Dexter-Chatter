@@ -1,0 +1,17 @@
+{
+  "name": "dexter-chatter",
+  "version": "1.0.1",
+  "description": "A chatter bot",
+  "main": "./src/client.ts",
+  "scripts": {
+    "start": "tsc ./index.ts",
+    "start:dev": "ts-node ./src/index.ts",
+    "test": "node ./src/tests.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node-dev": "^1.1.8"
+  }
+}
