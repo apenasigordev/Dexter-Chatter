@@ -4,6 +4,7 @@
   "description": "A chatter bot",
   "main": "./src/client.ts",
   "types": "./build/client.d.ts",
+	"repository": "apenasigordev/Dexter-Chatter",
   "scripts": {
     "start": "tsc ./index.ts",
     "start:dev": "ts-node ./src/index.ts",
