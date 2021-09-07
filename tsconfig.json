@@ -4,6 +4,7 @@
     "lib": ["esnext", "dom"],
     "module": "commonjs",
     "moduleResolution": "node",
+		"declaration": true,
     "strict": true,
     "jsx": "react",
     "allowJs": true,
