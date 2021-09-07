@@ -4,7 +4,7 @@ Dexter Chatter is a bot created in TS.
 
 # Examples
 ```ts
-import Dexter from './client'
+import Dexter from 'dexter-chatter'
 const client = new Dexter()
 
 
