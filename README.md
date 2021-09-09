@@ -16,7 +16,9 @@ client.answer("hi") // returns 👋
 You can create your own AI.
 
 # Warning
-This package is still under development, anything that is changed will be notified.
+- This package is still under development, anything that is changed will be notified.
+- Use `es6` to install this package
+- Only Typescript support, soon Javascript will be done.
 
 ### Last update: Sep, 9, 2021
 
