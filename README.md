@@ -1,5 +1,5 @@
 # Dexter Chatter
-Dexter Chatter is a bot created in TS.
+Dexter Chatter is a module created in TS.
 
 
 # Examples
