@@ -18,10 +18,11 @@ class Client {
     this.name = name || 'Dexter';
     this.correct_answer = '';
     this.know_answer = {
-      "what's your name?": `My name is ${this.name}`,
-      hi: 'Hello',
-      hello: 'Hi',
-      'how are you?': 'Fine.'
+      "what's your name?": `HOW SO YOU DON'T KNOW MY NAME?`,
+      hi: 'Hello and Shut, up',
+      hello: 'Hi ur... grrr',
+      'how are you?': '... ur ... GO WASH THE DISHES',
+      "where is my father?":"He never came back..."
     };
     this.dialogs = {};
   }
