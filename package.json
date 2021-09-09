@@ -1,6 +1,6 @@
 {
   "name": "dexter-chatter",
-  "version": "1.0.3",
+  "version": "10.0.0",
   "description": "A chatter bot",
   "main": "./src/client.ts",
   "types": "./build/client.d.ts",
