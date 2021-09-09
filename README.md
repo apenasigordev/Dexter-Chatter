@@ -5,14 +5,15 @@ Dexter Chatter is a bot created in TS.
 # Examples
 ```ts
 import Dexter from 'dexter-chatter'
-const client = new Dexter()
+const client = new Dexter() // Optional options: name
 
+client.train({
+	"hi": "👋" 
+}) // Redefining the dialogs
 
-console.log(client.answer);
-console.log(client.answer("aaa"));
-console.log(client.correct_answer);
-console.log(client.name)
+client.answer("hi") // returns 👋
 ```
+You can create your own AI.
 
 # Warning
 This package is still under development, anything that is changed will be notified.
