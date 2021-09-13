@@ -4,15 +4,17 @@ Dexter Chatter is a module created in TS.
 
 # Examples
 ```ts
-import Dexter from 'dexter-chatter'
-const client = new Dexter() // Optional options: name
+import Dexter from 'dexter-chatter';
 
-client.train({
-	"hi": "👋" 
-}) // Redefining the dialogs
+// Optional options: name
+const client = new Dexter();
 
-client.answer("hi") // returns 👋
+// Redefining the dialogs.
+client.train({ hi: '👋' });
+
+client.answer('hi'); // returns 👋
 ```
+
 You can create your own AI.
 
 # Warning
