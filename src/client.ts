@@ -39,7 +39,7 @@ class Client {
       : this.correct_answer;
   }
 
-  train<T extends Record<string, any>>(dialogs: T) {
+  train(dialogs: Record<string, any>): void {
     this.know_answer = dialogs;
   }
 }
