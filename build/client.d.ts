@@ -13,6 +13,6 @@ declare class Client {
     dialogs: Record<string, any>;
     constructor(name?: string);
     answer(question: string, opt?: ClientAnswerOptions): string | AnswerDebug;
-    train<T extends Record<string, any>>(dialogs: T): void;
+    train(dialogs: Record<string, any>): void;
 }
 export default Client;
