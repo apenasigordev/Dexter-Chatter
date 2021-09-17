@@ -20,8 +20,6 @@ You can create your own AI.
 # Warning
 This package is still under development, anything that is changed will be notified.
 
-### Last update: Sep, 9, 2021
-
 
 # Thank you contributors
 <table>
