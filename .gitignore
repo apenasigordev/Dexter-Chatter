@@ -1,7 +1,5 @@
 /node_modules/
-
-/build/
-
 /.upm/
-
+/build/
+/node_modules/
 .replit
